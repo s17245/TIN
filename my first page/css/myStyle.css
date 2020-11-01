@@ -1,0 +1,137 @@
+/* 
+
+ Podstawowy opis sk�adni j�zyka CSS 
+
+ do znacznik�w np. <body> w stylach odwo�ujemy si� pisz�c 
+	poprostu nazw� znacznika czyli np.: 
+	
+	body {
+		background-color:#117EAE;
+		font-size:12px;
+		text-align:center;
+	}
+	
+    do identyfikator�w takich jak np. <p id="jakasnazwa">tekst</p>
+    owo�ujemy si� pisz�c # i nazw� identyfikatora np:
+	
+	#jakasnazwa {
+		margin:0 auto;
+		text-align:left;
+		width:930px;
+	}
+
+     do klas takich jak np. <p class="jakasnazwa">tekst</p>
+     owo�ujemy si� pisz�c . i nazw� identyfikatora np:
+
+	.jakasnazwa {
+		margin:0 auto;
+		text-align:left;
+		width:930px;
+	}
+
+      nie ma �adnej r�nicy w dzia�aniu pomi�dzy id i class. parametr class powinno si� jednak 
+      stosowa� gdy mamy na stronie wiele powtarzalnych element�w (np. miniatury w galerii) kt�re 
+      powinny wygl�da� tak samo. Id jest identyfikatorem i dana nazwa powinna wyst�pi� tylko raz 
+      w obr�bie danego dokumentu html.
+      
+      Dlaczego "KASKADOWE" arkusze styli? Poniewa� do danych element�w mo�emy odwo�ywa� si� niejako 
+      "kaskadowo". Np je�li mamy taki fragment html:
+      
+	<p id="jakasnazwa">
+		<img class="obrazek" href="image.jpg />
+	</p>
+		<img class="obrazek" href="image.jpg />
+		
+      i chemy odwo�a� si� TYLKO do obrazka znajduj�cego si� w paragrafie o id="jakasnazwa" to napiszemy:
+      
+      #jakasnazwa .obrazek {
+           margin: 10px;
+      }
+      
+      drugi z obrazk�w pozostanie niesformatowany.
+      
+ */
+      
+body {
+	background-color:#e2f8e9;
+	background-repeat:repeat-x;
+	color:#252525;
+	font: Calibri;
+	font-size:16px;
+	text-align:left;
+	padding: 0px;
+    margin: 0px;
+}
+/* 3a Styl i rozmiar czcionki nagłówków i akapitów*/
+p {
+	font: Verdana;
+	color: black;
+	font-size: 20;
+	padding: 10px
+}
+h1 {
+	color:green;
+	font-weight:bold;
+	font-size:24;
+	font: Verdana
+}
+h2	{
+	color:blue;
+	font-size:24;
+}
+
+
+
+.title {
+	text-align: left;
+	color: white;
+	background-color: darkgreen;
+	font-size: 24;
+	
+}
+
+/* 3b Styl krawędzi tabeli*/
+.table, th, td{
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 15px
+}
+
+/* 3c Usunąć podkreślenia spod linków */
+#myLink{
+	text-decoration: none
+}
+
+
+#logo {
+	border-radius: 10px;
+	width: 200px;
+	height: 200px;
+	display: flex
+}
+
+
+/* 3d. Zmienić styl wypunktowania dla list nienumerowanych */
+ul.ico {
+    list-style-image: url('/img/ist2.png');
+    
+}
+  
+
+#myStyle {
+	margin:0 auto;
+	color: darkgray;
+	text-align:left;
+	width:600px;
+}
+
+
+
+#footer{
+	margin-top:100px;
+	text-align:center;
+	padding: 8px;
+	color: red;
+	height: 100px;
+}
+
