@@ -1,57 +1,7 @@
-/* 
+/*
+S17245
+*/
 
- Podstawowy opis sk�adni j�zyka CSS 
-
- do znacznik�w np. <body> w stylach odwo�ujemy si� pisz�c 
-	poprostu nazw� znacznika czyli np.: 
-	
-	body {
-		background-color:#117EAE;
-		font-size:12px;
-		text-align:center;
-	}
-	
-    do identyfikator�w takich jak np. <p id="jakasnazwa">tekst</p>
-    owo�ujemy si� pisz�c # i nazw� identyfikatora np:
-	
-	#jakasnazwa {
-		margin:0 auto;
-		text-align:left;
-		width:930px;
-	}
-
-     do klas takich jak np. <p class="jakasnazwa">tekst</p>
-     owo�ujemy si� pisz�c . i nazw� identyfikatora np:
-
-	.jakasnazwa {
-		margin:0 auto;
-		text-align:left;
-		width:930px;
-	}
-
-      nie ma �adnej r�nicy w dzia�aniu pomi�dzy id i class. parametr class powinno si� jednak 
-      stosowa� gdy mamy na stronie wiele powtarzalnych element�w (np. miniatury w galerii) kt�re 
-      powinny wygl�da� tak samo. Id jest identyfikatorem i dana nazwa powinna wyst�pi� tylko raz 
-      w obr�bie danego dokumentu html.
-      
-      Dlaczego "KASKADOWE" arkusze styli? Poniewa� do danych element�w mo�emy odwo�ywa� si� niejako 
-      "kaskadowo". Np je�li mamy taki fragment html:
-      
-	<p id="jakasnazwa">
-		<img class="obrazek" href="image.jpg />
-	</p>
-		<img class="obrazek" href="image.jpg />
-		
-      i chemy odwo�a� si� TYLKO do obrazka znajduj�cego si� w paragrafie o id="jakasnazwa" to napiszemy:
-      
-      #jakasnazwa .obrazek {
-           margin: 10px;
-      }
-      
-      drugi z obrazk�w pozostanie niesformatowany.
-      
- */
-      
 body {
 	background-color:#e2f8e9;
 	background-repeat:repeat-x;
