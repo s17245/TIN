@@ -106,28 +106,29 @@
         <p class="title">formularz HTML - część B</p>
         <form> 
             <!-- Pole tekstowe -->
-                Login:
-                <input type="text" name="login" id="login"/> <br/> 
+                <label class="text">Login</label>
+                <input class="item" type="text" name="login" id="login"/> <br/> 
             <!-- Pole z hasłem -->
-                Hasło:
-                <input type="password" name="hasło" id="hasło"/> <br/>
+                <label class="text">Hasło:</label>
+                <input class="item" type="password" name="hasło" id="hasło"/> <br/>
             <!-- Checkbox -->
-                Zgoda RODO: <br/>
-                <input type="checkbox" value= "Zgoda RODO" name= "zgoda"/>
-                Przeczytałem, akceptuję<br/>
+                <label class="RODO"> Zgoda RODO: </label>
+                <label class="item">
+                    <input type="checkbox" /> Przeczytałem, akceptuję
+                </label><br/>
+             
             <!-- Grupa radiobuttonów -->
-                
-                <br/>Masz PSA?<br/>
-                <input type="radio" id="takMamPsa" name="posiadaniePsa" value="takMamPsa">
-                <label for="male">Tak</label><br>
-                <input type="radio" id="nieNieMamPsa" name="posiadaniePsa" value="nieNieMamPsa">
-                <label for="female">Nie</label><br>
+                <label class="text"> Masz psa? </label>
+                <input class="item" type="radio" id="takMamPsa" name="posiadaniePsa" value="takMamPsa">
+                <label class="item" for="tak">Tak</label><br>
+                <input class="item" type="radio" id="nieNieMamPsa" name="posiadaniePsa" value="nieNieMamPsa">
+                <label class="item" for="nie">Nie</label><br>
             <!-- Lista select z grupami opcji -->
-                <br/>Gdzie znalazłeś stronę?<br/>
-                <select>
+                <label class="text"> Gdzie znalazłeś stronę? </label>
+                <select class="item2">
                     <optgroup label="Facebook">
-                        <option>Grupa</option>
                         <option>znajomi</option>
+                        <option>Grupa</option>
                     </optgroup>
                     <optgroup label="Internet">
                         <option>wyszukiwarka</option>
@@ -136,14 +137,14 @@
                 </select>
                 <br/><br/>
             <!-- Textarea -->
-            <label for="oSobie">Napisz coś o sobie:</label>
+            <label class="text">Napisz coś o sobie:</label>
             <br/>
-            <textarea name="textArea" rows="2" cols="50">tekst będzie widoczny przy awatarze</textarea><br/>
+            <textarea class="item" name="textArea" rows="2" cols="50">tekst będzie widoczny przy awatarze</textarea><br/>
             <!-- Przycisk Submit -->
-                <br/>Utwórz usera<br/>
-                <input type="submit" value="Zatwierdź">
+                <label class="text">Utwórz usera</label>
+                <input class="buttons" type="submit" value="Zatwierdź">
             <!-- Przycisk reset -->
-                <button type="reset">skasuj</button> 
+                <button class="buttons" type="reset">skasuj</button> 
 
         </form>
             

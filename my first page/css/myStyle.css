@@ -28,9 +28,8 @@ h1 {
 h2	{
 	color:blue;
 	font-size:24;
+	margin-left: 10px
 }
-
-
 
 .title {
 	text-align: left;
@@ -49,9 +48,9 @@ h2	{
 
 /* 3c Usunąć podkreślenia spod linków */
 #myLink{
-	text-decoration: none
+	text-decoration: none;
+	margin-left: 10px
 }
-
 
 #logo {
 	border-radius: 10px;
@@ -60,22 +59,18 @@ h2	{
 	display: flex
 }
 
-
 /* 3d. Zmienić styl wypunktowania dla list nienumerowanych */
 ul.ico {
     list-style-image: url('/img/ist2.png');
     
 }
   
-
 #myStyle {
 	margin:0 auto;
 	color: darkgray;
 	text-align:left;
 	width:600px;
 }
-
-
 
 #footer{
 	margin-top:100px;
@@ -84,4 +79,46 @@ ul.ico {
 	color: red;
 	height: 100px;
 }
+
+.text {
+	text-align: left;
+	margin-left: 10px;
+	font-weight: bold;
+	font-family: Verdana;
+	color: darkslategrey;
+	font-size: 18;
+	display: block; 
+    padding-top: 5px;
+}
+
+.RODO {
+	text-align: left;
+	margin-left: 10px;
+	color: darkslateblue;
+	font-size: 20;
+	font-weight: bold;
+	display: block; 
+    padding-top: 15px;
+}
+
+.item {
+	text-align: left;
+	margin-left: 10px;
+	padding-top: 15px;
+}
+
+.item2 {
+	text-align: left;
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.buttons {
+	text-align: left;
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
 
