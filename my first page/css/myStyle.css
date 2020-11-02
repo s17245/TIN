@@ -10,7 +10,7 @@ body {
 	font-size:16px;
 	text-align:left;
 	padding: 0px;
-    margin: 0px;
+    margin-left: 20px;
 }
 /* 3a Styl i rozmiar czcionki nagłówków i akapitów*/
 p {
@@ -95,7 +95,7 @@ ul.ico {
 	text-align: left;
 	margin-left: 10px;
 	color: darkslateblue;
-	font-size: 20;
+	font-size: 24;
 	font-weight: bold;
 	display: block; 
     padding-top: 15px;
@@ -111,14 +111,45 @@ ul.ico {
 	text-align: left;
 	margin-left: 10px;
 	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-bottom: 5px
 }
 
 .buttons {
 	text-align: left;
 	margin-left: 10px;
 	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-bottom: 5px
 }
+
+.navigation {
+	display: inline
+}
+
+.navItems {
+	background-color: olivedrab;
+	text-decoration: none;
+	color: seashell;
+	margin: 0;
+	padding: 7px
+}
+
+.zLewej{
+	width: 40%;
+	float: left;
+}
+
+.clear{
+	clear: left;
+}
+
+.imgZlewej{
+	float: left;
+}
+
+.imgZprawej{
+	float: right;
+}
+
+
 
 

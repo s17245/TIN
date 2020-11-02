@@ -13,11 +13,11 @@
 </head>
 <body>
 
-    <nav>
+    <nav >
         <ul>
-            <li><a href="">O mnie</a></li>
-            <li><a href="">Multimedia</a></li>
-            <li><a href="">kontakt</a></li>
+            <li class="navigation"><a class="navItems" href="index.html">Hołm</a></li>
+            <li class="navigation"><a class="navItems" href="formularz.html">Formularz</a></li>
+            <li class="navigation"><a class="navItems" href="zadC.html">zadC</a></li>
         </ul>
     </nav>
     <header>  
@@ -40,7 +40,7 @@
             <li>spacery</li>
             <li>gryzaki:</li>
                 <ul class="ico">
-                    <li>piłkę</a></li>
+                    <li>piłkę</li>
                     <li>szarpak</li>
                     <li>kong</li>
                     <li>snacki</li>
@@ -101,54 +101,7 @@
         </table>
         <p class="title">link do google</p>
         <a id="myLink" href="http://www.google.pl">google link</a>
-        
-        <!-- część B-->
-        <p class="title">formularz HTML - część B</p>
-        <form> 
-            <!-- Pole tekstowe -->
-                <label class="text">Login</label>
-                <input class="item" type="text" name="login" id="login"/> <br/> 
-            <!-- Pole z hasłem -->
-                <label class="text">Hasło:</label>
-                <input class="item" type="password" name="hasło" id="hasło"/> <br/>
-            <!-- Checkbox -->
-                <label class="RODO"> Zgoda RODO: </label>
-                <label class="item">
-                    <input type="checkbox" /> Przeczytałem, akceptuję
-                </label><br/>
-             
-            <!-- Grupa radiobuttonów -->
-                <label class="text"> Masz psa? </label>
-                <input class="item" type="radio" id="takMamPsa" name="posiadaniePsa" value="takMamPsa">
-                <label class="item" for="tak">Tak</label><br>
-                <input class="item" type="radio" id="nieNieMamPsa" name="posiadaniePsa" value="nieNieMamPsa">
-                <label class="item" for="nie">Nie</label><br>
-            <!-- Lista select z grupami opcji -->
-                <label class="text"> Gdzie znalazłeś stronę? </label>
-                <select class="item2">
-                    <optgroup label="Facebook">
-                        <option>znajomi</option>
-                        <option>Grupa</option>
-                    </optgroup>
-                    <optgroup label="Internet">
-                        <option>wyszukiwarka</option>
-                        <option>link z innej strony</option>
-                    </optgroup>
-                </select>
-                <br/><br/>
-            <!-- Textarea -->
-            <label class="text">Napisz coś o sobie:</label>
-            <br/>
-            <textarea class="item" name="textArea" rows="2" cols="50">tekst będzie widoczny przy awatarze</textarea><br/>
-            <!-- Przycisk Submit -->
-                <label class="text">Utwórz usera</label>
-                <input class="buttons" type="submit" value="Zatwierdź">
-            <!-- Przycisk reset -->
-                <button class="buttons" type="reset">skasuj</button> 
-
-        </form>
-            
-
+ 
     </main>
     <footer id="footer">
         autor: S17245
