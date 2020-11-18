@@ -1,0 +1,103 @@
+main{
+    display: flex;
+    margin-top: 20px;
+}
+
+.baner {
+    transform: rotate(5deg);
+    box-shadow: 4px 4px;
+    border-radius: 25px;
+    width: 400px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.banerImg{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    border-radius: 25px;
+}
+
+.podpis {
+    display: block;
+    font-weight: bold;
+    font-size: 25;
+    text-align: center; 
+}
+
+figure{
+    width: 150px;
+}
+
+.galeria{
+    background-color: lightskyblue;
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 150px;
+}
+
+.icon{
+    height: 100px;
+    width: 100px;
+}
+
+.textArea {
+    border: 1px solid black;
+    font-size: 14px;
+    columns: 12em;
+    float: left;
+    margin: 20px;
+
+}
+
+.quote{
+    font-size: 16;    
+    margin: 5px;
+    color: darkblue;
+    float: left;
+    background: lightskyblue;
+}
+
+.quote:hover{
+    font-weight: bold;
+    color: crimson;
+}
+
+blockquote {
+    margin: 0; 
+    display:block;
+}
+
+.inTextImg{
+    float: left;
+	width: 100px;
+	height: 100px;
+}
+
+#footer{
+    margin-top: 50px;
+    display: inline-block;
+}
+
+#footer:hover{
+    color: blue;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+@media only screen and (max-width: 800px) {
+	
+    .main{
+        display: flex;
+    }
+	.galeria {
+        order: 2;
+	}
+
+    .textArea {
+        order: 1;
+        column-count: 1;
+    }
+}
