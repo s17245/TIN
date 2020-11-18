@@ -30,11 +30,12 @@ figure{
     width: 150px;
 }
 
-.galeria{
+aside{
     background-color: lightskyblue;
     margin-top: 20px;
     border: 1px solid black;
     width: 150px;
+    height: auto;
 }
 
 .icon{
@@ -42,13 +43,12 @@ figure{
     width: 100px;
 }
 
-.textArea {
+article {
     border: 1px solid black;
     font-size: 14px;
     columns: 12em;
     float: left;
     margin: 20px;
-
 }
 
 .quote{
@@ -75,12 +75,12 @@ blockquote {
 	height: 100px;
 }
 
-#footer{
+footer{
     margin-top: 50px;
     display: inline-block;
 }
 
-#footer:hover{
+footer:hover{
     color: blue;
     font-weight: bold;
     font-size: large;
@@ -92,11 +92,10 @@ blockquote {
     .main{
         display: flex;
     }
-	.galeria {
+	aside {
         order: 2;
 	}
-
-    .textArea {
+    article {
         order: 1;
         column-count: 1;
     }
