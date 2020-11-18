@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
 main{
     display: flex;
     margin-top: 20px;
@@ -78,14 +80,19 @@ blockquote {
 footer{
     margin-top: 50px;
     display: inline-block;
+    font-family: 'Goldman', cursive;
 }
 
 footer:hover{
     color: blue;
     font-weight: bold;
-    font-size: large;
 }
 
+figcaption{
+    font-family: 'Goldman', cursive;
+    text-align: left;
+    font-size: 14px;
+}
 
 @media only screen and (max-width: 800px) {
 	
