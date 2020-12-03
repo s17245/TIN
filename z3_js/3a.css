@@ -1,0 +1,39 @@
+body{
+    margin: 20px;
+}
+
+p1{
+    font-size: 25;
+    font-weight: bold;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+
+.baner{
+    border-radius: 15px;
+    padding: 3px;
+    width: 800px;
+}
+
+.navButton{
+    background-color: #477eed;
+    padding: 1px 71px;
+    border-radius: 5px;
+    font-size: 14;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer; 
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 50px;
+    display: inline-block;
+    font-family: 'Goldman', cursive;
+}
