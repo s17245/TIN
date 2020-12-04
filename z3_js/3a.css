@@ -45,4 +45,13 @@ footer{
 
 table, td {
     border: 1px solid black;
-  }
+    width: 100px;
+}
+
+#div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8{
+    display: block;
+    width: 60px;
+}
+input[type="number"] {
+    width:50px;
+ }
