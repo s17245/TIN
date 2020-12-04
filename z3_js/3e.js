@@ -103,4 +103,4 @@ function zapiszEdycje(id) {
     if (id === 6) document.getElementById("tempo6").innerHTML = `${newValue}` + `°C`;
     if (id === 7) document.getElementById("tempo7").innerHTML = `${newValue}` + `°C`;
     if (id === 8) document.getElementById("tempo8").innerHTML = `${newValue}` + `°C`;
-  }
+}

@@ -22,7 +22,7 @@ function addTotable() {
     var regexNumber = /^\d+$/;
     var dateAlertMsg= "Nieprawidłowy format daty";
     var numberAlertMsg= "wpisz liczbę w temperaturę";
-
+    
     //document.getElementById("alertInvalidDate").innerHTML = dateValidator()
 
     if(validator(d,regexDate) && validator(C,regexNumber)){
@@ -36,7 +36,8 @@ function addTotable() {
         alert(dateAlertMsg)
     }if( validator(d,regexDate) && !validator(C,regexNumber)){
         alert(numberAlertMsg)
+    }if( !validator(d,regexDate) && !validator(C,regexNumber)){
+        alert(dateAlertMsg + " oraz " + numberAlertMsg)
     }
 }
-
 
