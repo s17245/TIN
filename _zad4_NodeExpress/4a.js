@@ -21,13 +21,13 @@ http.createServer(function (req, res) {
       res.end("wynik dodawania: " + q.liczba1 + " + " + q.liczba2 + " wynik: " + result);
     }else if(req.url.includes("/sub?")){
       var result = (parseInt(q.liczba1) - parseInt(q.liczba2)).toString();
-      res.end("wynik odejmowania: " + q.liczba1 + " + " + q.liczba2 + " wynik: " + result);
+      res.end("wynik odejmowania: " + q.liczba1 + " - " + q.liczba2 + " wynik: " + result);
     }else if(req.url.includes("/mul?")){
       var result = (parseInt(q.liczba1) * parseInt(q.liczba2)).toString();
-      res.end("wynik mnozenia: " + q.liczba1 + " + " + q.liczba2 + " wynik: " + result);
+      res.end("wynik mnozenia: " + q.liczba1 + " * " + q.liczba2 + " wynik: " + result);
     }else if(req.url.includes("/div?")){
       var result = (parseInt(q.liczba1) / parseInt(q.liczba2)).toString();
-      res.end("wynik dzielenia: " + q.liczba1 + " + " + q.liczba2 + " wynik: " + result);
+      res.end("wynik dzielenia: " + q.liczba1 + " / " + q.liczba2 + " wynik: " + result);
     }
   }else{
     res.writeHead(400, {'Content-Type': 'text/html'});
